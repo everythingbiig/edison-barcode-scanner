@@ -1,0 +1,18 @@
+{
+  "name": "edison-barcode-scanner",
+  "description": "A barcode scanner for Intel Edison.",
+  "version": "0.0.1",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+      "async": "latest",
+      "noble": "latest",
+      "bleno": "latest",
+      "util": "latest",
+      "node-hid": "latest",
+      "node-usb-barcode-scanner": "latest",
+      "punycode": "latest"
+  }
+}
